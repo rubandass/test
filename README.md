@@ -8,4 +8,5 @@
   ANDROID – MOBILE APPLICATION </br>
   USER MANUAL
   </h1>
+  <a href="./javadoc/app/index.md">Comment</a>
 </p>
