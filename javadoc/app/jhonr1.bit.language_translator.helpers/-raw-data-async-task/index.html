@@ -1,0 +1,62 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>RawDataAsyncTask - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">jhonr1.bit.language_translator.helpers</a>&nbsp;/&nbsp;<a href="./index.html">RawDataAsyncTask</a><br/>
+<br/>
+<h1>RawDataAsyncTask</h1>
+<code><span class="keyword">class </span><span class="identifier">RawDataAsyncTask</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/AsyncTask.html"><span class="identifier">AsyncTask</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://developer.android.com/reference/java/lang/Void.html"><span class="identifier">Void</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span></code>
+<p>Asynchronous task class.
+Fetching data in background.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">RawDataAsyncTask</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.helpers.RawDataAsyncTask$<init>(jhonr1.bit.language_translator.interfaces.IDataDownloadComplete, android.content.Context)/listener">listener</span><span class="symbol">:</span>&nbsp;<a href="../../jhonr1.bit.language_translator.interfaces/-i-data-download-complete/index.html"><span class="identifier">IDataDownloadComplete</span></a><span class="symbol">, </span><span class="identifier" id="jhonr1.bit.language_translator.helpers.RawDataAsyncTask$<init>(jhonr1.bit.language_translator.interfaces.IDataDownloadComplete, android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span></code>
+<p>Asynchronous task class.
+Fetching data in background.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="do-in-background.html">doInBackground</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">doInBackground</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="jhonr1.bit.language_translator.helpers.RawDataAsyncTask$doInBackground(kotlin.Array((kotlin.String)))/url">url</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Fetching data in background.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-post-execute.html">onPostExecute</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onPostExecute</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.helpers.RawDataAsyncTask$onPostExecute(kotlin.String)/result">result</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>closes the progress dialog, when download finished</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-pre-execute.html">onPreExecute</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onPreExecute</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Shows the progress dialog, before download starts</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

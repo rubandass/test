@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>IDataDownloadAvailable - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">jhonr1.bit.language_translator.interfaces</a>&nbsp;/&nbsp;<a href="./index.html">IDataDownloadAvailable</a><br/>
+<br/>
+<h1>IDataDownloadAvailable</h1>
+<code><span class="keyword">interface </span><span class="identifier">IDataDownloadAvailable</span></code>
+<p>Interface class which is used by YandexAsyncTask class.</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-data-available.html">onDataAvailable</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onDataAvailable</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.interfaces.IDataDownloadAvailable$onDataAvailable(kotlin.String)/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-error.html">onError</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onError</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.interfaces.IDataDownloadAvailable$onError(java.lang.Exception)/e">e</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html"><span class="identifier">Exception</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../jhonr1.bit.language_translator.activities/-translation-activity/index.html">TranslationActivity</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">TranslationActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span><span class="symbol">, </span><a href="../-i-data-download-complete/index.html"><span class="identifier">IDataDownloadComplete</span></a><span class="symbol">, </span><a href="./index.html"><span class="identifier">IDataDownloadAvailable</span></a><span class="symbol">, </span><span class="identifier">OnNavigationItemSelectedListener</span></code>
+<p>It has Bottom navigation menu, Drawer menu on top left.
+Bottom navigation menu items takes you to the corresponding activity.
+Drawer menu has language settings, Dark theme mode, Exit app.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

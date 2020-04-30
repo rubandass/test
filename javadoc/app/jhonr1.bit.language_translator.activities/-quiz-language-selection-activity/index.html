@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>QuizLanguageSelectionActivity - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">jhonr1.bit.language_translator.activities</a>&nbsp;/&nbsp;<a href="./index.html">QuizLanguageSelectionActivity</a><br/>
+<br/>
+<h1>QuizLanguageSelectionActivity</h1>
+<code><span class="keyword">class </span><span class="identifier">QuizLanguageSelectionActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span><span class="symbol">, </span><span class="identifier">OnNavigationItemSelectedListener</span></code>
+<p>It has Bottom navigation menu, Drawer menu on top left.
+Bottom navigation menu items takes you to the corresponding activity.
+Drawer menu has language settings, Dark theme mode, Exit app.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">QuizLanguageSelectionActivity</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>It has Bottom navigation menu, Drawer menu on top left.
+Bottom navigation menu items takes you to the corresponding activity.
+Drawer menu has language settings, Dark theme mode, Exit app.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="toolbar.html">toolbar</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">toolbar</span><span class="symbol">: </span><span class="identifier">Toolbar</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-back-pressed.html">onBackPressed</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onBackPressed</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>calls the Main activity and do the transition when back button pressed</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create.html">onCreate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.activities.QuizLanguageSelectionActivity$onCreate(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets bottom navigation menu, Quiz language selection layout page, drawer menu when this activity is called.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-navigation-item-selected.html">onNavigationItemSelected</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onNavigationItemSelected</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.activities.QuizLanguageSelectionActivity$onNavigationItemSelected(android.view.MenuItem)/item">item</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/MenuItem.html"><span class="identifier">MenuItem</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>It takes menu item, current activity and the side drawer meny layout as input when an item is selected</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="toggle-day-night.html">toggleDayNight</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">toggleDayNight</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.activities.QuizLanguageSelectionActivity$toggleDayNight(android.view.View)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Set the default dayNight mode based on the "Night Mode" ON or OFF, save the current theme mode to preferences</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

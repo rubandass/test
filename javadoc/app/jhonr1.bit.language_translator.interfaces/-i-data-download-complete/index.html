@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>IDataDownloadComplete - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">jhonr1.bit.language_translator.interfaces</a>&nbsp;/&nbsp;<a href="./index.html">IDataDownloadComplete</a><br/>
+<br/>
+<h1>IDataDownloadComplete</h1>
+<code><span class="keyword">interface </span><span class="identifier">IDataDownloadComplete</span></code>
+<p>Interface class which is used by RawDataAsync class</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-download-complete.html">onDownloadComplete</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onDownloadComplete</span><span class="symbol">(</span><span class="identifier" id="jhonr1.bit.language_translator.interfaces.IDataDownloadComplete$onDownloadComplete(kotlin.String, jhonr1.bit.language_translator.enums.DownloadStatus)/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="jhonr1.bit.language_translator.interfaces.IDataDownloadComplete$onDownloadComplete(kotlin.String, jhonr1.bit.language_translator.enums.DownloadStatus)/status">status</span><span class="symbol">:</span>&nbsp;<a href="../../jhonr1.bit.language_translator.enums/-download-status/index.html"><span class="identifier">DownloadStatus</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code><pre><code>    When implemented, gets the status (enum value) of the async task - checks if its completed</code></pre></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../jhonr1.bit.language_translator.activities/-translation-activity/index.html">TranslationActivity</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">TranslationActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span><span class="symbol">, </span><a href="./index.html"><span class="identifier">IDataDownloadComplete</span></a><span class="symbol">, </span><a href="../-i-data-download-available/index.html"><span class="identifier">IDataDownloadAvailable</span></a><span class="symbol">, </span><span class="identifier">OnNavigationItemSelectedListener</span></code>
+<p>It has Bottom navigation menu, Drawer menu on top left.
+Bottom navigation menu items takes you to the corresponding activity.
+Drawer menu has language settings, Dark theme mode, Exit app.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
